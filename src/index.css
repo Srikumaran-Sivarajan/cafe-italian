@@ -11,6 +11,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -29,6 +30,44 @@ p{
     padding: 0 4px;
 }
 
+h3{
+    font-family: "montserrat";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--text-color);
+}
+
+.pad-1{
+    padding: 0 5%;
+}
+
+.gap-pages{
+    padding: 5% 15%;
+}
+
+.full{
+    height: 100vh;
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1{
+    font-family: "montserrat";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 7rem;
+}
+h4{
+    font-family: "montserrat";
+    font-weight: bold;
+}
+
 /* 1. Small mobile: up to 375px */
 @media (max-width: 375px) {
   
@@ -41,10 +80,14 @@ p{
 
 /* 3. Tablet: 481px - 768px */
 @media (min-width: 481px) and (max-width: 768px) {
-  
+  .pad-1{
+    margin: 0 20px;
+  }
 }
 
 /* 4. Desktop: 769px and above */
 @media (min-width: 769px) {
-  
+  .pad-1{
+    margin: 0 5%;
+  }
 }

@@ -1,0 +1,29 @@
+.primary-button {
+  background-color: var(--highlights);
+  color: #000;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter";
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.primary-button:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.primary-button:hover .arrow-icon {
+  transform: translateX(5px);
+}

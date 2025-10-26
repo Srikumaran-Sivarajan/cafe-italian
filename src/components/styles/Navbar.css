@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu > li {
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+nav{
+    height: 20%;
+    width: inherit;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}

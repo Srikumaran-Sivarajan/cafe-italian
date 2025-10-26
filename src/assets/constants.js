@@ -5,3 +5,10 @@ export const DETAILS = [
     {Icon:Phone, text:"0161 795 5502",link:"tel:"},
     {Icon:Mail, text:"reservations@istanbulrestaurantmanchester.co.uk",link:"mailto:"}
 ];
+
+export const MENU = [
+    {text:"Home"},
+    {text:"Menu"},
+    {text:"About"},
+    {text:"Contact"}
+]

@@ -1,0 +1,14 @@
+.gold {
+    color: var(--text-color);
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.menu-section button{
+    margin: 3rem 0;
+}
