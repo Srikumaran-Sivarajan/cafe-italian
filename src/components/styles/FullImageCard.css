@@ -1,0 +1,45 @@
+.img-wrapper{
+    width: 100%;
+    height: 50vh;
+    margin: 5%;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.img-wrapper .img-cover{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding-left: 10%;
+    gap: 8%;
+}
+.img-wrapper .img-cover .title{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 5rem;
+    color: var(--text-color);
+}
+
+.img-cover .p{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: var(--primary);
+    font-size: 1rem;
+}

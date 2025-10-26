@@ -1,0 +1,38 @@
+.monthly-section span{
+    color: var(--highlights);
+    
+}
+.high-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-top: 5%;
+}
+
+.high-wrapper .card{
+   flex:1;
+    height: 80vh;
+}
+
+.high-wrapper .card img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.high-wrapper .card .name{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--text-color);
+   
+}
+
+.high-wrapper .card .price{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--highlights);
+}

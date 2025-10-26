@@ -36,6 +36,8 @@ export {
     sepcial_2,
     sepcial_3,
 
-    dining
+    dining,
+
+    highlights_1 ,highlights_2 ,highlights_3 ,highlights_4
 
 }
