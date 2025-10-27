@@ -21,6 +21,15 @@ import dining from "./image.png";
 
 import pattern from "./731d3203b37ea6ff092b11c33acf9f7ff1ea49d8.png"
 
+import g_1 from "./image-0.png";
+import g_2 from "./image-1.png";
+import g_3 from "./image-2.png";
+import g_4 from "./image-3.png";
+import g_5 from "./image-00.png";
+import g_6 from "./image-10.png";
+import g_7 from "./image-20.png";
+import g_8 from "./image-30.png";
+
 
 
 export {
@@ -42,6 +51,14 @@ export {
 
     highlights_1 ,highlights_2 ,highlights_3 ,highlights_4,
 
-    pattern
+    pattern,
 
+    g_1,
+    g_2,
+    g_3,
+    g_4,
+    g_5,
+    g_6,
+    g_7,
+    g_8,
 }

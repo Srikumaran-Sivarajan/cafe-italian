@@ -1,8 +1,4 @@
-.gold {
-    color: var(--text-color);
-    font-family: "Inter";
-    font-weight: 600;
-}
+
 
 .menu-section .wrapper{
     display: flex;

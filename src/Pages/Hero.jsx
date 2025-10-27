@@ -28,7 +28,7 @@ export default function Hero() {
             </h1>
         </div>
         <div className="cover-div">
-            <Button text={"Viwe Menu"}/>
+            <Button text={"View Menu"}/>
         </div>
       </div>
 

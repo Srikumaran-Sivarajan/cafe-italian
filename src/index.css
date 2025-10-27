@@ -78,6 +78,13 @@ h4 {
   padding: 10px;
 }
 
+.gold {
+    color: var(--secondary);
+    font-family: "Inter";
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 /* ----------------- RESPONSIVE DESIGN ------------------ */
 
 /* Small Mobile Devices (up to 375px) */
