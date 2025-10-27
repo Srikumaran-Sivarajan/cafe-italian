@@ -11,8 +11,19 @@ import FullImageCard from './components/FullImageCard'
 import GuestPage from './Pages/GuestPage'
 import Contactus from './Pages/Contactus'
 import Footer from './components/Footer'
-import Gallery from './Pages/Gallery'
+import Gallery from './Pages/Gallery';
+import { useEffect } from 'react'
+
+import Aos from 'aos'
 function App() {
+  useEffect(() => {
+    Aos.init({
+    offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+    });
+}, []);
 
   const DATA = {
     src:dining,
