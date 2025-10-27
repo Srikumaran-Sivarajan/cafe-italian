@@ -1,0 +1,50 @@
+.reviews-container{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  gap: 5%;
+  padding:5% 10%;
+}
+
+.reviews-container::-webkit-scrollbar {
+  display: none;
+}
+
+
+.review-card{
+ background-color: #0B0B0B;
+ flex: 1;
+ padding: 15px;
+ display:flex ;
+ flex-direction: column;
+ gap: 20px;
+ width: auto;
+ box-sizing: content-box;
+ min-width: 300px;
+}
+.review-card img{
+  border-radius: 50%;
+}
+.review-card .review-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.review-card > div p:last-child{
+  color: rgba(240, 248, 255, 0.489);
+  font-weight: 400;
+}
+
+.review-card .stars{
+  color: var(--highlights);
+  letter-spacing: 2px;
+}
+
+.review-card .review-text{
+  color: rgba(248, 250, 252, 0.407);
+  font-family: "Roboto";
+}

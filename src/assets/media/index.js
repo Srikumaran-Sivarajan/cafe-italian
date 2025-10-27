@@ -19,6 +19,8 @@ import highlights_4 from "./image (4).png";
 
 import dining from "./image.png";
 
+import pattern from "./731d3203b37ea6ff092b11c33acf9f7ff1ea49d8.png"
+
 
 
 export {
@@ -36,6 +38,10 @@ export {
     sepcial_2,
     sepcial_3,
 
-    dining
+    dining,
+
+    highlights_1 ,highlights_2 ,highlights_3 ,highlights_4,
+
+    pattern
 
 }

@@ -37,6 +37,7 @@
   z-index: 3;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   color: white; /* content color */
 }
@@ -48,3 +49,10 @@
   justify-content: center;
   margin: 5px 0;
 }
+
+@media (min-width: 1100px) {
+    .cover-hero{
+      justify-content: baseline;
+    }
+}
+

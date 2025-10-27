@@ -27,3 +27,50 @@
 .primary-button:hover .arrow-icon {
   transform: translateX(5px);
 }
+
+/* Small Mobile (up to 375px) */
+@media (max-width: 375px) {
+  .primary-button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+    gap: 6px;
+    
+  }
+  .arrow-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* Large Mobile (376px - 480px) */
+@media (min-width: 376px) and (max-width: 480px) {
+  .primary-button {
+    width: 90%;
+    padding: 12px 24px;
+    font-size: 15px;
+    gap: 8px;
+  }
+  .arrow-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Tablet (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .primary-button {
+    width: auto;
+    padding: 13px 28px;
+    font-size: 15px;
+  }
+}
+
+/* Laptop & Desktop (769px and above) */
+@media (min-width: 769px) {
+  .primary-button {
+    width: 200px;
+    padding: 14px 32px;
+    font-size: 16px;
+  }
+}

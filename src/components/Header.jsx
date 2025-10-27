@@ -3,7 +3,7 @@ import { DETAILS } from "../assets/constants";
 
 export default function Header() {
   return (
-    <header>
+    <header className="sm-hid">
       <ul className="head-container">
         {DETAILS.map((x, index) => (
           <List data={x} key={index} />

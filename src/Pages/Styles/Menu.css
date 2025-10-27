@@ -4,11 +4,17 @@
     font-weight: 600;
 }
 
-.wrapper{
+.menu-section .wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .menu-section button{
     margin: 3rem 0;
+}
+
+@media (max-width:757px) {
+    .menu-section .wrapper{
+        flex-direction: column;
+    }
 }

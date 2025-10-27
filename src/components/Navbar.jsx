@@ -4,7 +4,7 @@ import "./styles/Navbar.css";
 
 export default function Navbar(){
 
-    return <nav className="pad-1">
+    return <nav className="pad-1 sm-hid">
         <ul className="menu ">
             {
                 MENU.map((x,index)=><li key={index}>
