@@ -36,3 +36,9 @@
     text-align: center;
     color: var(--highlights);
 }
+
+@media (max-width:1000px) {
+    .high-wrapper{
+        flex-direction: column;
+    }
+}
